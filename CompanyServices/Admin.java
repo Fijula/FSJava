@@ -38,20 +38,4 @@ public class Admin {
         }
     }
     }
-
-    // public static void main(String[] args) {
-    //     // // Create an Organization object
-    //     Organization PodTest = new Organization();
-    //     // Get the employees from the Organization
-    //     Employee[] employees = PodTest.getEmployees();
-    //     // Create an Admin object
-    //     Admin admin = new Admin("Rohan");
-    //     double totalReqBudget = admin.getTotalReqdBudget(employees);
-    //     System.out.println("Total Required Budget: " + totalReqBudget);
-
-    //     double totalTaxCollected = admin.getTotalTaxCollected(employees);
-    //     System.out.println("Total Tax Collected: " + totalTaxCollected);
-
-    //     admin.printTaxAmountPerEmployee(employees);
-    // }
 }
