@@ -1,4 +1,4 @@
-package Java_Collections_Assingment;
+package CollectionAssingnment;
 
 public class Employee {
 	String Empid;
@@ -22,5 +22,10 @@ public class Employee {
 	public int getSalary() {
 		return Salary;
 	}
+	@Override
+    public boolean equals(Object obj) {
+        Employee other = (Employee) obj;
+        return Empid.equals(other.Empid) && Name.equals(other.Name) && Salary == other.Salary;
+    }
 
 }

@@ -1,4 +1,4 @@
-package Java_Collections_Assingment;
+package CollectionAssingnment;
 
 public class Main {
 	public static void main(String args[]) {
@@ -34,6 +34,16 @@ public class Main {
 		System.out.println("EmpId  |  Name     |  Salary ");
 		System.out.println("---------------------------");
 		EmployeeWithClass.sortNameDescSalryAsc();
+
+		// Solution 6(a):
+		String name = "Suraj";
+		System.out.println("Check if : " + name + " exist in employee list using String Compare");
+		System.out.println(EmployeeWithClass.searchNameStringCompare(name));
+
+		// Solution 6(b):
+		Employee empSearch = new Employee("T1", "Suraj", 97);
+		System.out.println("Check if : "+empSearch.getName() + " exist in employee list using Object Compare");
+		System.out.println(EmployeeWithClass.searchNameObjectCompare(empSearch));
 
 	}
 

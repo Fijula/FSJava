@@ -1,4 +1,4 @@
-package Java_Collections_Assingment;
+package CollectionAssingnment;
 import java.util.*;
 public class ComparatorSortNameSalary implements Comparator<Employee>{
 	public int compare(Employee e1,Employee e2)
